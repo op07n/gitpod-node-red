@@ -1,0 +1,6 @@
+ports:
+  - port: 8080
+    protocol: "http"
+    onOpen: open-browser
+tasks:
+- command: "npm install node-red -g && npm install node-red-contrib-nbrowser -g && node-red -p 8080"
